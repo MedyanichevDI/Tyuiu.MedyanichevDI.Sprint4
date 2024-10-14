@@ -10,7 +10,7 @@ namespace Tyuiu.MedyanichevDI.Sprint4.Task0.V23.Lib
             { 
                 if (array[i] %2> 0)
                 {
-                    sum += array[i];
+                    sum *= array[i];
                 }
             }
             return sum;
