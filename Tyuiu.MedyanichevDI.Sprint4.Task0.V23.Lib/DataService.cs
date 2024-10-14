@@ -5,7 +5,7 @@ namespace Tyuiu.MedyanichevDI.Sprint4.Task0.V23.Lib
     {
         public int GetMultOddArrEl(int[] array)
         {
-            int sum = 0;
+            int sum = 1;
             for (int i = 0; i < array.Length; i++) 
             { 
                 if (array[i] %2> 0)
