@@ -31,11 +31,11 @@ namespace Tyuiu.MedyanichevDI.Sprint4.Task2.V8
             Random rnd = new Random();
             int len = 11;
             int[] arr = new int[len];
-            for (int i=0; i <= len; i++)
+            for (int i=0; i <= len-1; i++)
             {
                 arr[i] = rnd.Next(2, 7);
             }
-            for (int i = 0; i < len-1; i++)
+            for (int i = 0; i < len - 1; i++)
             {
                 Console.WriteLine(arr[i] + "/t");    
             }
