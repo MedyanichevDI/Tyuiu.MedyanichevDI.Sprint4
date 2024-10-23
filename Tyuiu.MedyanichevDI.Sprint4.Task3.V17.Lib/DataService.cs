@@ -13,7 +13,7 @@ namespace Tyuiu.MedyanichevDI.Sprint4.Task3.V17.Lib
             {
                 for (int j=0; j<colum; j++)
                 {
-                    if (j == 4)
+                    if (j == 3)
                     {
                         sum += array[i, j];
                     }
