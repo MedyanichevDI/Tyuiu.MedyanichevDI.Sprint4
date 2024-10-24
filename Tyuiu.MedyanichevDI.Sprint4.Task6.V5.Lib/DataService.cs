@@ -6,7 +6,7 @@ namespace Tyuiu.MedyanichevDI.Sprint4.Task6.V5.Lib
     {
         public int Calculate(string[] array)
         {
-            string[] mus = Array.FindAll(array, x => x.Length == 7);
+            string[] mus = Array.FindAll(array, x => x.Length == 5);
             return mus.Length;
         }
     }
